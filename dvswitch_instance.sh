@@ -89,7 +89,7 @@ edit_file() {
   local changes=$(cat <<EOF
 $(case "$filename" in
   MMDVM_Bridge.ini)
-    echo "* **Id:** Unique ID for this instance.\n* **[Log] -> FilePath:** \`$LOG_DIR/MMDVM_Bridge.log\`\n* **[DMR Network] -> Local:** \`$LOCAL_PORT\`"
+    echo "* **Id:** Unique ID for this instance.\n* **[Log] -> FilePath:** \`$LOG_DIR\`\n* **[DMR Network] -> Local:** \`$LOCAL_PORT\`"
     ;;
   DVSwitch.ini)
     echo "* **[DMR] -> TXPort:** \`$DMR_TX_PORT\`\n* **[DMR] -> RXPort:** \`$DMR_RX_PORT\`\n* **[DMR] -> exportTG:** Your TG\n* **[STFU] -> StartTG:** Brandmeister TG (if needed)"
