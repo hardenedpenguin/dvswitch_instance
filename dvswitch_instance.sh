@@ -95,7 +95,7 @@ $(case "$filename" in
     echo "* **[DMR] -> TXPort:** \`$DMR_TX_PORT\`\n* **[DMR] -> RXPort:** \`$DMR_RX_PORT\`\n* **[DMR] -> exportTG:** Your TG\n* **[STFU] -> StartTG:** Brandmeister TG (if needed)"
     ;;
   Analog_Bridge.ini)
-    echo "* **[GENERAL]emulatorAddress:** \`127.0.0.1:$EMU_PORT\`\n* **[AMBE_AUDIO]Ports:** \`txPort = $DMR_RX_PORT\`, \`rxPort = $DMR_TX_PORT\`\n* **ambeMod:** DMR\n* **txTg:** Default TG (optional)\n* **[USRP] -> txPort/rxPort:** \`$USRP_TX_PORT\`, \`$USRP_RX_PORT\`"
+    echo "* **[GENERAL]emulatorAddress:** \`127.0.0.1:$EMU_PORT\`\n* **[AMBE_AUDIO]Ports:** \`txPort = $DMR_RX_PORT\`, \`rxPort = $DMR_TX_PORT\`\n* **ambeMod:** DMR\n* ** repeaterID: Match essid\n* **txTg:** Default TG (optional)\n* **[USRP] -> txPort/rxPort:** \`$USRP_TX_PORT\`, \`$USRP_RX_PORT\`"
     ;;
 esac)
 EOF
