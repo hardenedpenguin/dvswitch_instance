@@ -13,6 +13,15 @@ This script creates isolated DVSwitch instances (2 through 5) by:
 - Setting up separate log directories
 - Enabling and starting the services
 
+## Installation
+
+Download the script directly from the repository:
+
+```bash
+wget https://raw.githubusercontent.com/hardenedpenguin/dvswitch_instance/refs/heads/main/dvswitch_instance.sh
+chmod +x dvswitch_instance.sh
+```
+
 ## Prerequisites
 
 - Root or sudo access (required for systemd and file operations)
